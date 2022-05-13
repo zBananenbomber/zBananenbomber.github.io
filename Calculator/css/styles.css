@@ -1,0 +1,100 @@
+* {
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+input {
+    text-align: start;
+    padding-left: 12px;
+    background-color: #0F0F5D;
+    border-style: solid;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-right: none;
+    border-color: #0F0F7D;
+    height: 2em;
+    width: 1fr;
+    border-width: 2px;
+    outline: none;
+    align-self: center;
+}
+
+input:hover {
+    border-color: #0F0F8D;
+}
+input:focus {
+    border-color: #0F0F9D;
+}
+select {
+    border-radius: 8px;
+    height: 2.37em;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-color: #0F0F7D;
+    border-style: solid;
+    outline: none;
+    border-width: 2px;
+    width: 0.1fr;
+    background-color: #0F0F6D;
+    border-left: none;
+}
+
+select:hover {
+    background-color: #0F0F8D;
+}
+
+select:focus {
+    background-color: #0F0F9D;
+}
+button {
+    margin-top: 1em;
+    background: #0F0F6D;
+    border-style: solid;
+    border-radius: 12px;
+    height: 2.5em;
+    width: 100%;
+    border-color: #0F0F7D;
+}
+button:hover {
+    border-color: #0F0F8D;
+}
+button:focus {
+    border-color: #0F0F9D;
+}
+textarea {
+    background-color: #0F0F6D;
+    border-radius: 12px;
+    resize: none;
+    border-color: #0F0F7D;
+    border-width: 1.2px;
+    outline: none;
+    padding: 12px;
+    
+}
+textarea:hover {
+    border-color: #0F0F8D;
+}
+textarea:active {
+    border-color: #0F0F9D;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.kBox {
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-right: #0F0F6D;
+}
