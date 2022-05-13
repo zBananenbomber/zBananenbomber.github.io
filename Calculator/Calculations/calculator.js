@@ -154,7 +154,7 @@ $(document).ready(function() {
         }
     
         function Get_A_B_() {
-            if(SB_ <  SA_) {
+            if(SB_ >  SA_) {
                 if(A_B_ == 0 && SB_ != 0 && SA_ != 0) {
                     A_B_ = Math.round(Math.sqrt(SB_ * SB_ - SA_ * SA_)* 100) / 100;
                     A_B_F = `\nA'B' = Wurzel aus SB'² - SA'²\nAB' = Wurzel aus ${SB_}² - ${SA_}²\nAB' = ${A_B_}cm`
