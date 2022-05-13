@@ -9,8 +9,6 @@ $(document).ready(function() {
         if(document.getElementById('SB_').value == '') { document.getElementById('SB_').value = 0; }
         if(document.getElementById('AB').value == '') { document.getElementById('AB').value = 0; }
         if(document.getElementById('A_B_').value == '') { document.getElementById('A_B_').value = 0; }
-        if(document.getElementById('h').value == '') { document.getElementById('h').value = 0; }
-        if(document.getElementById('h_').value == '') { document.getElementById('h_').value = 0; }
         if(document.getElementById('k').value == '') { document.getElementById('k').value = 0; }
         let SA = document.getElementById('SA').value;
         let SA_ = document.getElementById('SA_').value;
@@ -43,8 +41,6 @@ $(document).ready(function() {
         document.getElementById("SB_").value = Math.round(SB_ * 100) / 100
         document.getElementById("AB").value = Math.round(AB * 100) / 100
         document.getElementById("A_B_").value = Math.round(A_B_ * 100) / 100
-        document.getElementById("h").value = Math.round(h * 100) / 100
-        document.getElementById("h_").value = Math.round(h_ * 100) / 100
         document.getElementById("k").value = Math.round(k * 100) / 100
         document.getElementById("outputbox").value = `${SAF}${SA_F}${SBF}${SB_F}${ABF}${A_B_F}${kF}${kt}`
     
@@ -178,10 +174,6 @@ $(document).ready(function() {
                 A_B_F = `\nA'B' = AB * k\nA'B' = ${AB} * ${k}\nA'B' = ${A_B_}`;
             }
         }
-        
-        /*function Get_h() {
-            if(h == 0 && )
-        }*/
 
         function Get_k() {
             if(k == 0 && SB != 0 && SB_ != 0) {
